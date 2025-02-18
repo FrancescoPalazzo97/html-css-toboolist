@@ -94,6 +94,7 @@ ul {
 
 .secondary-list>li {
     margin: 20px 0;
+    padding: 0 3px;
 }
 
 /* CHECK, CROSS ED ETICHETTE */
@@ -118,8 +119,8 @@ ul {
 
 .label::after {
     border-radius: 15px;
-    padding: 5px 10px;
-    font-size: 14px;
+    padding: 8px 13px;
+    font-size: 12px;
     color: white;
 }
 
