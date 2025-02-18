@@ -37,3 +37,36 @@ img {
 .text-big {
     font-size: 45px;
 }
+
+/* MAIN */
+
+.btn-section {
+    width: 1090px;
+    margin: 15px auto;
+    padding: 15px 30px;
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.btn-section button {
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.btn-primary {
+    background-color: rgb(66, 66, 255);
+    border: 1px solid rgb(66, 66, 255);
+}
+
+.btn-secondary {
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-gray {
+    color: gray;
+}
