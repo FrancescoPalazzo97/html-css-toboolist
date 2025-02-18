@@ -1,5 +1,39 @@
+
+/* Generics */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+/* HEADER */
+
+header {
+    background-color: white;
+}
+
+#logo {
+    margin: auto 10px;
+    padding: 10px 0;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.align-middle { 
+    vertical-align: middle;
+}
+
+img {
+    width: 80px;
+}
+
+.text-big {
+    font-size: 45px;
 }
