@@ -89,11 +89,11 @@ ul {
 }
 
 .primary-list>li {
-    margin: 15px 0;
+    margin: 25px 0;
 }
 
 .secondary-list>li {
-    margin: 10px;
+    margin: 20px 0;
 }
 
 /* CHECK, CROSS ED ETICHETTE */
@@ -104,7 +104,7 @@ ul {
     content: "\2716";
     color: red;
     padding: 2px;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .check::before {
@@ -113,7 +113,7 @@ ul {
     content: "\2714";
     color: green;
     padding: 2px;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .label::after {
