@@ -8,7 +8,8 @@
 }
 
 body {
-    background-color: gray;
+    background-color: rgb(184, 181, 181);
+    font-family: "Roboto";
 }
 
 /* HEADER */
@@ -40,9 +41,11 @@ img {
 
 /* MAIN */
 
+/* BTN SECTION */
+
 .btn-section {
     width: 1090px;
-    margin: 15px auto;
+    margin: 15px auto 5px;
     padding: 15px 30px;
     background-color: white;
     border-radius: 10px 10px 0 0;
@@ -69,4 +72,89 @@ img {
 
 .text-gray {
     color: gray;
+}
+
+/* LIST SECTION */
+
+.list-section {
+    width: 1090px;
+    margin: 0 auto 15px;
+    padding: 15px 30px;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.primary-list>li {
+    margin: 15px 0;
+}
+
+.secondary-list>li {
+    margin: 10px;
+}
+
+/* CHECK, CROSS ED ETICHETTE */
+
+.cross::before {
+    border: 1px solid red;
+    border-radius: 50%;
+    content: "\2716";
+    color: red;
+    padding: 2px;
+    margin-right: 5px;
+}
+
+.check::before {
+    border: 1px solid green;
+    border-radius: 50%;
+    content: "\2714";
+    color: green;
+    padding: 2px;
+    margin-right: 5px;
+}
+
+.label::after {
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: white;
+}
+
+.editorial::after {
+    background-color: rgb(66, 66, 255);
+    content: "Editorial";
+    margin-left: 10px;
+}
+
+.q1-goals::after {
+    background-color: blueviolet;
+    content: "Q1 Goals";
+    margin-left: 10px;
+}
+
+.recruiting::after {
+    background-color: rgb(0, 85, 0);
+    content: "Recruiting";
+    margin-left: 10px;
+}
+
+.mobile::after {
+    background-color: orange;
+    content: "Mobile";
+    margin-left: 10px;
+}
+
+.website::after {
+    background-color: violet;
+    content: "Website";
+    margin-left: 10px;
+}
+
+.sales::after {
+    background-color: lime;
+    content: "Sales";
+    margin-left: 10px;
 }

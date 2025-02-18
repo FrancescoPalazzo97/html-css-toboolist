@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toboolist </title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- HEADER -->
@@ -16,6 +19,7 @@
     </header>
     <!-- MAIN -->
     <main>
+        <!-- BUTTON SECTION -->
         <div class="btn-section">
             <button class="btn-primary text-white">
                 Add Task
@@ -24,12 +28,33 @@
                 Add Section
             </button>
         </div>
+        <!-- LIST SECTION -->
         <div class="list-section">
-            <ul>
-
+            <ul class="primary-list">
+                <li>
+                    <h2>&#9660;New Task</h2>
+                    <ul class="secondary-list">
+                        <li class="check label editorial"><strong>Quarterly Newsletter</strong></li>
+                    </ul>
+                </li>
+                <li class="task"><h2>&#9660; Today</h2>
+                <ul class="secondary-list">
+                    <li class="check label editorial margin-s"><strong>Recruiting blog post</strong></li>
+                    <li class="check label q1-goals"><strong>Mobiule app launch</strong></li>
+                    <li class="cross label recruiting"><strong>Interview John H.</strong></li>
+                    <li class="check label mobile"><strong>Summit update to mobile storefronts</strong></li>
+                </ul>
+                </li>
+                <li class="task"><h2>&#9660; Upcoming</h2>
+                <ul class="secondary-list">
+                    <li class="cross"><strong>Recruiting blog post</strong></li>
+                    <li class="check label website"><strong>Recruiting blog post</strong></li>
+                    <li class="check label sales"><strong>Recruiting blog post</strong></li>
+                    <li class="check label editorial"><strong>Recruiting blog post</strong></li>
+                </ul>
+                </li>
             </ul>
         </div>
     </main>
-    <footer></footer>
 </body>
 </html>
